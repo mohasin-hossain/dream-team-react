@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Shakib Al Hassan",
+    "role": "All-rounder",
+    "age": "35 Years",
+    "price": 1500000,
+    "img": "https://img1.hscicdn.com/image/upload/f_auto/lsci/db/PICTURES/CMS/296300/296315.6.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Mominul Haque",
+    "role": "Middle-order Batsman",
+    "age": "31 Years",
+    "price": 1000000,
+    "img": "https://img1.hscicdn.com/image/upload/f_auto/lsci/db/PICTURES/CMS/282600/282681.6.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Tamim Iqbal",
+    "role": "Batsman",
+    "age": "37 Years",
+    "price": 900000,
+    "img": "https://images.hindustantimes.com/img/2021/09/01/1600x900/cricket-bangladesh-vs-west-indies-3rd-odi_16d3105a-f64d-11e8-9c15-87952149edff_1630487857806.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Liton Kuman Das",
+    "role": "Wicket Keeper Batsman",
+    "age": "28 Years",
+    "price": 1000000,
+    "img": "https://m.cricbuzz.com/a/img/v1/600x400/i1/c206880/liton-das-currently-going-through-a-rough-patch-attempts-to-reinvent-himself-in-the-nets.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Mushfiqur Rahim",
+    "role": "Wicket Keeper",
+    "age": "38 Years",
+    "price": 700000,
+    "img": "https://www.cricketcountry.com/wp-content/uploads/2014/02/Bangladeshi-cricketer-Mushfiqur-Rahim-1-11.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Afif Hossain",
+    "role": "All-rounder",
+    "age": "23 Years",
+    "price": 1000000,
+    "img": "https://st1.latestly.com/wp-content/uploads/2019/11/Afif-Hossain.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Shoriful Islam",
+    "role": "Pace Bowler",
+    "age": "21 Years",
+    "price": 800000,
+    "img": "https://media.gettyimages.com/photos/mohammad-shoriful-islam-of-bangladesh-bowls-during-the-icc-u19-world-picture-id1204369644"
+  },
+  {
+    "id": 8,
+    "name": "Al-amin Hossain",
+    "role": "Pace Bowler",
+    "age": "32 Years",
+    "price": 600000,
+    "img": "https://e0.365dm.com/16/10/2048x1152/al-amin-hossain-bangladesh-cricketer_3799972.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Ebadat Hossain",
+    "role": "Pace Bowler",
+    "age": "28 Years",
+    "price": 500000,
+    "img": "https://www.crictracker.com/wp-content/uploads/2017/08/Ibadat-Hossain.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Mehedi Hassan",
+    "role": "All-rounder",
+    "age": "30 Years",
+    "price": 1100000,
+    "img": "https://admin.thecricketer.com/weblab/Sites/96c8b790-b593-bfda-0ba4-ecd3a9fdefc2/resources/images/site/mehedihasanheadshot-min.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Saifuddin",
+    "role": "All-rounder",
+    "age": "26 Years",
+    "price": 1000000,
+    "img": "https://www.observerbd.com/2019/10/24/observerbd.com_1571939018.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Taskin Ahmed",
+    "role": "Pace Bowler",
+    "age": "24 Years",
+    "price": 1000000,
+    "img": "https://img1.hscicdn.com/image/upload/f_auto/lsci/db/PICTURES/CMS/318000/318077.4.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Taijul Islam",
+    "role": "Spinner",
+    "age": "30 Years",
+    "price": 800000,
+    "img": "https://img.cricketnmore.com/uploads/article/taijul-islam1.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Mahmudullah",
+    "role": "All-rounder",
+    "age": "36 Years",
+    "price": 1100000,
+    "img": "https://www.cricketcountry.com/wp-content/uploads/2018/10/Mahmudullah-Getty-Images.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Shamim Patwary",
+    "role": "All-rounder",
+    "age": "22 Years",
+    "price": 900000,
+    "img": "https://images.prothomalo.com/prothomalo-english%2F2021-06%2F17ef7147-8131-49ce-9ce0-730fba1f4508%2Fprothomalo_bangla_2021_06_053cc21a_415a_4e10_a728_dba5c7246338_Shamim_P_Batting_against_Ireland_Wolv.jpg?auto=format&q=35&w=1200&rect=0,0,2992,1683"
+  }
+]
