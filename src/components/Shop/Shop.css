@@ -2,9 +2,20 @@
   display: grid;
   grid-template-columns: 3fr 1fr;
   margin: 80px 20px 20px 20px;
+  gap: 20px;
+  position: relative;
 }
+
 .players-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
+}
+
+.cart-container {
+    position: relative;
+}
+
+.cart-items {
+    position: fixed;
 }

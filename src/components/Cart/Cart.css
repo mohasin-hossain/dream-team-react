@@ -1,0 +1,11 @@
+.total {
+    color: #E04D01;
+    font-size: 1.8rem;
+}
+
+.cart-players {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}

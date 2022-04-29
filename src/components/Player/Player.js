@@ -10,7 +10,7 @@ const Player = (props) => {
             <p>Role: {role}</p>
             <p>Age: {age}</p>
             <h4>Price: <span>{price}</span></h4>
-            <button>Buy Now!</button>
+            <button onClick={() => props.handleAddToCart(props.player)}>Buy Now!</button>
         </div>
     );
 };
