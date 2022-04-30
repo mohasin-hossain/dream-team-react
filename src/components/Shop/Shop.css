@@ -12,12 +12,6 @@
   position: relative;
 }
 
-@media only screen and (max-width: 600px) {
-  .shop-container {
-    gap: 5px;
-  }
-}
-
 .players-container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -66,4 +60,23 @@
   border-radius: 10px;
   border: none;
   outline: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .shop-container {
+    gap: 5px;
+  }
+  .input-container {
+    top: 35px
+  }
+}
+
+
+@media only screen and (max-width: 520px) {
+  .shop-container {
+    gap: 5px;
+  }
+  .input-container {
+    top: 70px
+  }
 }
