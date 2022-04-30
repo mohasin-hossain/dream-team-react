@@ -18,6 +18,11 @@ const Shop = () => {
         setCart(newCart);
     }
 
+    const handleDeleteItem = (id) => {
+        const deleteItem = cart.filter(item => item.id !== id);
+        setCart(deleteItem);   
+    }
+
 
     return (
         <div className='shop-container'>
@@ -32,7 +37,7 @@ const Shop = () => {
             </div>
             <div className="cart-container">
                 <div className="cart-items">
-                    {cart.length ? <Cart cart={cart}></Cart> : null}
+                    {cart.length ? <Cart handleDeleteItem={handleDeleteItem} cart={cart}></Cart> : null}
                 </div>
             </div>
            
