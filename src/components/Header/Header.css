@@ -2,7 +2,7 @@ header {
     background-color: #251D3A;
     line-height: 50px;
     text-align: center;
-    position: fixed;
+    position: sticky;
     width: 100%;
     top: 0;
     z-index: 2;

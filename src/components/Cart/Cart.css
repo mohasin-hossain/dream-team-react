@@ -8,4 +8,9 @@
     flex-direction: column;
     justify-content: center;
     gap: 5px;
+    margin-bottom: 100px;
+}
+
+.player-added {
+    margin-bottom: 10px;
 }
