@@ -18,6 +18,8 @@ const Shop = () => {
         if(!exist) {
             const newCart = [...cart, player];
             setCart(newCart);
+        } else {
+            alert('This player is already in Cart!')
         }
     }
 

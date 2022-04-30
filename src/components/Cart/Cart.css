@@ -3,6 +3,15 @@
     font-size: 1.8rem;
 }
 
+@media only screen and (max-width: 600px) {
+    .total {
+        font-size: 1rem;
+    }
+    h3 {
+        font-size: 1rem;
+    }
+}
+
 .cart-players {
     display: flex;
     flex-direction: column;
