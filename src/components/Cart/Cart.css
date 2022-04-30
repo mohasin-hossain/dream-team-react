@@ -1,25 +1,25 @@
 .total {
-    color: #E04D01;
-    font-size: 1.8rem;
+  color: #e04d01;
+  font-size: 1.8rem;
 }
 
 @media only screen and (max-width: 600px) {
-    .total {
-        font-size: 1rem;
-    }
-    h3 {
-        font-size: 1rem;
-    }
+  .total {
+    font-size: 1rem;
+  }
+  h3 {
+    font-size: 1rem;
+  }
 }
 
 .cart-players {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 5px;
-    margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  margin-bottom: 200px;
 }
 
 .player-added {
-    margin: 10px 0;
+  margin: 10px 0;
 }

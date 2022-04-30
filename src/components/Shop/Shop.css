@@ -32,8 +32,6 @@
   position: fixed;
   height: 100%;
   overflow-y: scroll;
-  display: flex;
-  justify-content: center;
 }
 
 .scrollbar-hidden::-webkit-scrollbar {
@@ -72,7 +70,6 @@
     top: 35px
   }
 }
-
 
 @media only screen and (max-width: 510px) {
   .shop-container-with-cart {
