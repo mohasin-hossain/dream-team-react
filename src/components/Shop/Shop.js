@@ -44,7 +44,7 @@ const Shop = () => {
             <div className="input-container">
                 <input onChange={handleChange} type="text" placeholder='Search player' />
             </div>
-            <div className='shop-container'>
+            <div className={cart.length ? 'shop-container-with-cart' : 'shop-container-without-cart'}>
                 <div className="players-container">
                     {
                         displyPlayers.map(player => <Player 
