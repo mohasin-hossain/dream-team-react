@@ -1,4 +1,6 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faUser } from '@fortawesome/free-solid-svg-icons'
 import CartItem from '../CartItem/CartItem';
 import './Cart.css';
 
@@ -11,9 +13,11 @@ const Cart = (props) => {
         total += player.price;
     }
 
+    const playerIcon = <FontAwesomeIcon icon={faUser}></FontAwesomeIcon>
+
     return (
         <div>
-            <h3 className='player-added'>Players Added: {cart.length} </h3>
+            <h3 className='player-added'>{playerIcon} Players Added: {cart.length} </h3>
             <div className='cart-players'>
                 {
                     cart.map(item => <CartItem 

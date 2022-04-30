@@ -14,8 +14,11 @@ const Shop = () => {
     }, [])
 
     const handleAddToCart = (player) => {
-        const newCart = [...cart, player];
-        setCart(newCart);
+        const exist = cart.find(pl => pl.id === player.id);
+        if(!exist) {
+            const newCart = [...cart, player];
+            setCart(newCart);
+        }
     }
 
     const handleDeleteItem = (id) => {
@@ -36,7 +39,7 @@ const Shop = () => {
                 }
             </div>
             <div className="cart-container">
-                <div className="cart-items">
+                <div className="cart-items scrollbar-hidden">
                     {cart.length ? <Cart handleDeleteItem={handleDeleteItem} cart={cart}></Cart> : null}
                 </div>
             </div>
